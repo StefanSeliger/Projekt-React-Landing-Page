@@ -1,0 +1,74 @@
+main {
+  padding: 10vh;
+}
+main .greenText {
+  color: green;
+  font-size: 1.5rem;
+  margin-bottom: 3vh;
+}
+main h1 {
+  font-size: 3.5rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+main .iconText {
+  margin: 10vh 0;
+}
+main .iconText > article {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 2vh auto;
+}
+
+.mainIconArticles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 2vh auto;
+}
+.mainIconArticles img {
+  width: 25px;
+}
+.mainIconArticles div {
+  text-align: left;
+  width: 65%;
+  margin-left: 15px;
+}
+.mainIconArticles div h3 {
+  margin-bottom: 2vh;
+}
+
+.recipes {
+  background: #c2c2c2;
+  padding: 0 4vw;
+}
+.recipes article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+  background: white;
+}
+
+.recipeContainer {
+  width: 250px;
+  text-align: left;
+  margin: 0 auto;
+}
+.recipeContainer img {
+  width: 250px;
+  height: 250px;
+}
+.recipeContainer h4 {
+  margin: 10px 0;
+  color: #0096cd;
+}
+.recipeContainer .turquois {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: turquoise;
+  margin: 15px 0;
+}
+
+/*# sourceMappingURL=Main.css.map */

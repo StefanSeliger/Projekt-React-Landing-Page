@@ -1,0 +1,40 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+h2 {
+    font-size: 4rem;
+    color: white; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+header {
+    .hello {
+        font-size: 1.5rem;
+    }
+    background-color: green;
+    padding: 10vh; 
+    .mainHeadline {
+        width: 35vw; 
+        margin: 0 auto;
+        padding-bottom: 5vh;  
+        border-bottom: 1px solid white;
+    }
+    .headerText {
+        margin: 10vh 0; 
+    }
+    section {
+        display: flex; 
+        justify-content: space-around;
+        article:nth-of-type(1), article:nth-of-type(2), article:nth-of-type(3) {
+            border-right: 1px solid white;
+            padding-right: 8vw; 
+        }
+    }
+}
+
